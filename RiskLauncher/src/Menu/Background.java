@@ -13,7 +13,7 @@ public class Background extends JPanel{
 			Image img = ImageIO.read(new File("fond.jpg"));
 			g.drawImage(img, 0, 0, this.getWidth(), this.getHeight(), this);
 			Image logo = ImageIO.read(new File("Risk_logo.png"));
-			g.drawImage(logo, 180,10,350,160,this);
+			g.drawImage(logo, 155,10,385,170,this);
 		} 
 		catch (IOException e) {
 			e.printStackTrace();
